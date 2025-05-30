@@ -1,2 +1,80 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  padding: 30px;
+}
+
+.form-container {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group, .form-check {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:invalid,
+select:invalid {
+  border-color: #dc3545;
+}
+
+small {
+  color: #dc3545;
+  display: none;
+}
+
+input:invalid + small,
+select:invalid + small {
+  display: block;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.form-check label {
+  display: inline;
+}
+
+.form-check small {
+  display: block;
+  color: #dc3545;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
